@@ -3,7 +3,9 @@ import cv2
 import mediapipe as mp
 import time
  
- 
+import csv
+
+
 class FaceDetector():
     def __init__(self, minDetectionCon=0.5):
  
